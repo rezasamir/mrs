@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.mrsaud" name="mrsaud" version="1.0.0" provider-name="MRS-Company">
+<addon id="plugin.audio.mrsaud" name="mrsaud" version="2.0.0" provider-name="MRS-Company">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.parsedom" version="2.5.2"/>
