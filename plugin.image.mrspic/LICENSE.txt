@@ -1,9 +1,0 @@
-
-		    GNU GENERAL PUBLIC LICENSE
-		       Version 2, June 1991
-
- Copyright (C) 2015 MRS-Company by Mohamadreza Samandar
- 
-
-		     END OF TERMS AND CONDITIONS
--------------------------------------------------------------------------
