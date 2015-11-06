@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.mrsvid" name="mrsvid" version="3.0.0" provider-name="MRS-Company">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+		<import addon="script.module.parsedom" version="2.5.2"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+	
+    <extension point="xbmc.addon.metadata">
+        <summary>This is Mohamadreza program</summary>
+        <description>This is a description of Mohamadreza Program.</description>
+        <disclaimer>Under MRS-Company License.</disclaimer>
+    </extension>
+</addon>
