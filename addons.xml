@@ -30,7 +30,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.mrsvid" name="mrsvid" version="2.0.0" provider-name="MRS-Company">
+<addon id="plugin.video.mrsvid" name="mrsvid" version="3.0.0" provider-name="MRS-Company">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.parsedom" version="2.5.2"/>
@@ -46,8 +46,8 @@
     </extension>
 </addon>
 
-<addon id="repository.mrs" name="MRS Repository" version="4.0.0" provider-name="MRS-Company">
-	<extension point="xbmc.addon.repository" name="MRS Repository">
+<addon id="repository.mrs" name="mrs-repository" version="4.0.0" provider-name="MRS-Company">
+	<extension point="xbmc.addon.repository" name="mrs-repository">
 		<info compressed="false">https://raw.githubusercontent.com/rezasamir/mrs/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/rezasamir/mrs/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/rezasamir/mrs/master</datadir>
@@ -64,7 +64,7 @@
   name="Confluence"
   provider-name="Jezz_X, Team Kodi">
   <requires>
-    <import addon="xbmc.gui" version="6.9.0"/>
+    <import addon="xbmc.gui" version="5.9.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
