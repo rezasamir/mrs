@@ -13,7 +13,11 @@
 		<setting type="sep" />
     </category>
 	<category label="Update">
-		<setting type="lsep" label="Current video section version : $INFO[ System.AddonVersion(plugin.video.mrsvid) ] " />
+		<setting type="lsep" label="Current video section version :   $INFO[ System.AddonVersion(plugin.video.mrsvid) ] " />
+		<setting type="lsep" label="Current music section version :   $INFO[ System.AddonVersion(plugin.audio.mrsaud) ] " />
+		<setting type="lsep" label="Current picture section version : $INFO[ System.AddonVersion(plugin.picture.mrspic) ] " />
+		<setting type="lsep" label="Current repository version :      $INFO[ System.AddonVersion(repository.mrs) ] " />
+		<setting type="lsep" label="Current skin version :            $INFO[ System.AddonVersion(skin.confluence) ] " />
         <setting label="Check for updates" type="action" action="UpdateAddonRepos"/>
     </category>
 </settings>
