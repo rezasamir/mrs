@@ -113,7 +113,7 @@
 
 <addon
   id="resource.language.fa_ir"
-  version="51.0.4"
+  version="1.0.5"
   name="Persian (Iran)"
   provider-name="Team Kodi">
   <requires>
