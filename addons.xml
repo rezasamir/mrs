@@ -341,7 +341,7 @@
   </extension>
 </addon>
 
-<addon id="weather.yahoo" name="yahooweather" version="3.0.9" provider-name="ronie">
+<addon id="weather.yahoo" name="yahooweather" version="3.0.10" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -475,7 +475,6 @@
 		<forum>http://forum.kodi.tv/showthread.php?tid=169410</forum>
 		<website></website>
 		<email></email>
-		<source>https://github.com/ronie/weather.yahoo</source>
 	</extension>
 </addon>
 
