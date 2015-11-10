@@ -8,7 +8,6 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-
     <extension point="xbmc.addon.metadata">
         <summary>This is Mohamadreza program</summary>
         <description>This is a description of Mohamadreza Program.</description>
@@ -16,12 +15,13 @@
     </extension>
 </addon>
 
-<addon id="weather.yahoo" name="Yahooweather" version="16.0.0" provider-name="ronie">
+<addon id="weather.yahoo" name="Yahooweather" version="17.0.0" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
-	<extension point="xbmc.python.weather" library="addon.py"/>
+	<extension point="xbmc.python.weather" library="addon.py">
+	 </extension>
 	 <extension point="xbmc.addon.metadata">
         <summary>This is Mohamadreza program</summary>
         <description>This is a description of Mohamadreza Program.</description>

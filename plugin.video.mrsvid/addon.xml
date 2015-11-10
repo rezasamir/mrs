@@ -7,7 +7,6 @@
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-	
     <extension point="xbmc.addon.metadata">
         <summary>This is Mohamadreza program</summary>
         <description>This is a description of Mohamadreza Program.</description>
