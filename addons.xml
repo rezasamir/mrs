@@ -39,9 +39,9 @@
   </extension>
 </addon>
 
-<addon id="weather.yahoo" name="Yahoo! Weather" version="7.0.0" provider-name="ronie">
+<addon id="weather.yahoo" name="Yahoo! Weather" version="8.0.0" provider-name="ronie">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.python.weather" library="default.py"/>
