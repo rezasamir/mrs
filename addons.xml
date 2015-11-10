@@ -15,40 +15,4 @@
         <disclaimer>Under MRS-Company License.</disclaimer>
     </extension>
 </addon>
-
-<addon
-  id="resource.language.fa_ir"
-  version="2.0.6"
-  name="Persian (Iran)"
-  provider-name="Team Kodi">
-  <requires>
-    <import addon="kodi.resource" version="1.0.0"/>
-  </requires>
-  <extension
-    point="kodi.resource.language"
-    locale="fa_IR">
-    <charsets>
-      <gui unicodefont="true" >CP1256</gui>
-      <subtitle>CP1256</subtitle>
-    </charsets>
-  </extension>
-  <extension point="kodi.addon.metadata">
-    <summary lang="en">Persian (Iran) language pack</summary>
-    <description lang="en">Persian (Iran) version of all texts used in Kodi.</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="weather.yahoo" name="Yahoo! Weather" version="10.0.0" provider-name="ronie">
-	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-	</requires>
-	<extension point="xbmc.python.weather" library="addon.py"/>
-	 <extension point="xbmc.addon.metadata">
-        <summary>This is Mohamadreza program</summary>
-        <description>This is a description of Mohamadreza Program.</description>
-        <disclaimer>Under MRS-Company License.</disclaimer>
-    </extension>
-</addon>
 </addons>
