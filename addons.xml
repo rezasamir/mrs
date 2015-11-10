@@ -16,7 +16,7 @@
     </extension>
 </addon>
 
-<addon id="weather.yahoo" name="Yahooweather" version="13.0.0" provider-name="ronie">
+<addon id="weather.yahoo" name="Yahooweather" version="14.0.0" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
