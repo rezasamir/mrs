@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.audio.mrsaud" name="mrsaud" version="5.0.0" provider-name="MRS-Company">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-		<import addon="script.module.parsedom" version="2.5.2"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>This is Mohamadreza program</summary>
-        <description>This is a description of Mohamadreza Program.</description>
-        <disclaimer>Under MRS-Company License.</disclaimer>
-    </extension>
-</addon>
-
-<addon id="weather.yahoo" name="Yahoo! Weather" version="15.2.0" provider-name="ronie">
+<addon id="weather.yahoo" name="Yahoo! Weather" version="16.2.0" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
