@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="weather.yahoo" name="Yahoo! Weather" version="4.0.0" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -137,4 +136,3 @@
 		<source>https://github.com/ronie/weather.yahoo</source>
 	</extension>
 </addon>
-</addons>
