@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+	<category label="Server Settings">
+		<setting type="lsep" label="Local Server Settings " />
+		<setting id="LOCAL_PROTOCOL" label="Local Server Protocol :" type="labelenum" values="FTPS|FTP|SFTP|HTTP|HTTPS" default="FTPS" />
+        <setting id="LOCAL_SERVER" label="Local Server Domain : " type="text"   default="127.0.0.1"/>
+		<setting id="LOCAL_FOLDER" label="Folder" type="text" default="music" />
+		<setting id="LOCAL_USER" label="Username" type="text" default="test" />
+		<setting id="LOCAL_PASS" label="password" type="text" option="hidden" default="test" />
+		<setting type="sep" />
+		<setting type="lsep" label="Global Server Settings " />
+        <setting id="GLOBAL_SERVER" label="Connect to Global Server" type="bool"  default="false"/>
+		<setting type="sep" />
+    </category>
+	<category label="Update">
+		<setting type="lsep" label="Current versions:" />
+		<setting type="lsep" label="[COLOR white]$INFO[ System.AddonVersion(plugin.video.mrsvid) ] : Video section [/COLOR]" />
+		<setting type="lsep" label="[COLOR white]$INFO[ System.AddonVersion(plugin.audio.mrsaud) ] : Music section [/COLOR] " />
+		<setting type="lsep" label="[COLOR white]$INFO[ System.AddonVersion(plugin.image.mrspic)] : Picture section [/COLOR]" />
+		<setting type="lsep" label="[COLOR white]$INFO[ System.AddonVersion(skin.confluence) ] : Skin [/COLOR] " />
+		<setting type="lsep" label="[COLOR white]$INFO[ System.AddonVersion(resource.language.fa_ir) ] : Languages [/COLOR] " />
+		<setting type="sep" />
+	    <setting label="Check for updates" type="action" action="UpdateAddonRepos"/>
+    </category>
+</settings>
